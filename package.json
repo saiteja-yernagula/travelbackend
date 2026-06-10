@@ -1,16 +1,10 @@
 {
-  "name": "backendapi",
+  "name": "travel-explorer-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts":  {
+  "scripts": {
     "start": "json-server --watch db.json --host 0.0.0.0 --port $PORT"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies":{
+  "dependencies": {
     "json-server": "^1.0.0"
   }
 }
